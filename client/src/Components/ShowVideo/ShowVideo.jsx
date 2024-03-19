@@ -9,8 +9,8 @@ console.log(vid)
     <>
     <Link to={`/videopage/${vid?._id}`}>
       <video 
-        src={`http://localhost:8080/${vid.videcdo_src}`}
-        // src={`https://youtube7142.onrender.com/${vid.filePath}`}
+        // src={`http://localhost:8080/${vid.videcdo_src}`}
+        src={`https://videoplayer-backend-4zaw.onrender.com/${vid.filePath}`}
 
         className="video_ShowVideo"
       />

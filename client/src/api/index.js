@@ -1,6 +1,6 @@
 import axios from 'axios'
-const API = axios.create({ baseURL : `http://localhost:8080/` });  
-// const API = axios.create({ baseURL : `https://youtube7142.onrender.com/` });
+// const API = axios.create({ baseURL : `http://localhost:8080/` });  
+const API = axios.create({ baseURL : `https://videoplayer-backend-4zaw.onrender.com/` });
 
 //baseURL is valid for Axios but baseUrl is configuration correct but not working
 API.interceptors.request.use(req=>{

@@ -59,8 +59,8 @@ function VideoPage() {
         <div className="container2_videoPage">
           <div className="video_display_screen_videoPage">
             <video
-              src={`http://localhost:8080/${vv?.filePath}`}
-              // src={`https://youtube7142.onrender.com/${vv?.filePath}`}
+              // src={`http://localhost:8080/${vv?.filePath}`}
+              src={`https://videoplayer-backend-4zaw.onrender.com/${vv?.filePath}`}
 
               className={"video_ShowVideo_videoPage"}
               controls
