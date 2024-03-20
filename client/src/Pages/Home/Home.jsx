@@ -82,7 +82,7 @@ function Home() {
         {/* <h6 className='developed_by'>It was Develop by Manoj</h6> */}
         <ShowVideoGrid vids={vids}/>
           <div >
-            <input type="button" className='developed_by' value="Developed By: Manoranjan Dalai"/>
+            {/* <input type="button" className='developed_by' value="Developed By: NullClass"/> */}
             <br />
           </div>
       </div>
